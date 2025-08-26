@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "3trUzZRVqhCbSFi0POLPn1t34fUGmJqXKK9QWxRZsBH7oXPlBLqUG+i0Zv4sII1n8aa13j2FASk2nrr0GK6ReA==",
+  "dgSpecHash": "VKXNmxpeJP3BQ++Qoyk1WiUtZzIZFpRUAXiXcK9q8w4mgpfuxb0C/zj01jORYRkEC38WCEaERRTFwbgUaGXk7A==",
   "success": true,
   "projectFilePath": "/home/ubuntu/MinhaApi/MinhaApi.csproj",
   "expectedPackageFiles": [
     "/home/ubuntu/.nuget/packages/microsoft.entityframeworkcore/6.0.12/microsoft.entityframeworkcore.6.0.12.nupkg.sha512",
     "/home/ubuntu/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.12/microsoft.entityframeworkcore.abstractions.6.0.12.nupkg.sha512",
     "/home/ubuntu/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.12/microsoft.entityframeworkcore.analyzers.6.0.12.nupkg.sha512",
+    "/home/ubuntu/.nuget/packages/microsoft.entityframeworkcore.inmemory/6.0.8/microsoft.entityframeworkcore.inmemory.6.0.8.nupkg.sha512",
     "/home/ubuntu/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.12/microsoft.entityframeworkcore.relational.6.0.12.nupkg.sha512",
     "/home/ubuntu/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/ubuntu/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",

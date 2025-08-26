@@ -1,18 +1,20 @@
-using Microsoft.EntityFrameworkCore;
-using MyApp.Models; // ajuste para seu namespace
-var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connectionString));
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-var app = builder.Build();
-if (app.Environment.IsDevelopment())
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+namespace MinhaApi.Models
 {
-app.UseSwagger();
-app.UseSwaggerUI();
+public class Produto
+{
+[Key]
+public int Id { get; set; }
+[Required]
+[StringLength(120)]
+public string Nome { get; set; } = string.Empty;
+[StringLength(300)]
+public string? Descricao { get; set; }
+[Column(TypeName = "numeric(10,2)")]
+[Range(0, 999999999.99)]
+public decimal Preco { get; set; }
+public int? Estoque { get; set; }
+public int Quantidade { get; set; }
 }
-app.MapGet("/", () => "Hello World da API rodando!");
-app.UseAuthorization();
-app.MapControllers();
-app.Run();
+}

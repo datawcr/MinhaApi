@@ -1,0 +1,7 @@
+/home/ubuntu/MinhaApi/obj/Release/net6.0/MinhaApi.csproj.AssemblyReference.cache
+/home/ubuntu/MinhaApi/obj/Release/net6.0/MinhaApi.GeneratedMSBuildEditorConfig.editorconfig
+/home/ubuntu/MinhaApi/obj/Release/net6.0/MinhaApi.AssemblyInfoInputs.cache
+/home/ubuntu/MinhaApi/obj/Release/net6.0/MinhaApi.AssemblyInfo.cs
+/home/ubuntu/MinhaApi/obj/Release/net6.0/MinhaApi.csproj.CoreCompileInputs.cache
+/home/ubuntu/MinhaApi/obj/Release/net6.0/MinhaApi.MvcApplicationPartsAssemblyInfo.cs
+/home/ubuntu/MinhaApi/obj/Release/net6.0/MinhaApi.MvcApplicationPartsAssemblyInfo.cache
